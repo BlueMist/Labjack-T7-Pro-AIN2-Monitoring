@@ -8,6 +8,7 @@ This will attempt to check how much noise is on the power signal. Its not a perf
 * Enter the number of samples to capture [default: 1000]:
 * Enter the sampling frequency in Hz (e.g., 100 for 100 Hz) [default: 100]:
 * Enter the resolution index (0-12) [default: 0]:
+  
 ==================Example==================
 Configure your data acquisition:
 Enter the AIN channel (e.g., AIN2) [default: AIN2]: 
