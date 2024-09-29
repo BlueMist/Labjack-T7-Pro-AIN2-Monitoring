@@ -1,0 +1,1 @@
+Reads the voltage inputs on the Labjack T7-Pro on AIN2 to check the quality of the electrical signal. The max input is 10v so if you need to go above that consider using a voltage divider. If you break your unit I warned you. 
