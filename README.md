@@ -2,7 +2,9 @@ Reads the voltage inputs on the Labjack T7-Pro on AIN2 to check the quality of t
 
 
 ====================================AIN2_Noise_Calc.py====================================
+
 This will attempt to check how much noise is on the power signal. Its not a perfect solution without having a scope but its better then nothing. 
+
 ==================OPTIONS==================
 * Enter the AIN channel (e.g., AIN2) [default: AIN2]:
 * Enter the number of samples to capture [default: 1000]:
