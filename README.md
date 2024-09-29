@@ -8,7 +8,7 @@ AIN2_Noise_Calc.py
 
 This will attempt to check how much noise is on the power signal. Its not a perfect solution without having a scope but its better then nothing. 
 
-OPTIONS
+### OPTIONS
 * Enter the AIN channel (e.g., AIN2) [default: AIN2]:
 * Enter the number of samples to capture [default: 1000]:
 * Enter the sampling frequency in Hz (e.g., 100 for 100 Hz) [default: 100]:
@@ -48,5 +48,5 @@ Because I dont own a scope
 
 #### Whats my input limit
 
-±10V AC or DC. If you go above that you will break it. If you need to measure above that consider making a voltage divider circuit. 
+±10V AC or DC. If you go outside that limit that you will break it. If you need to measure outside that consider making a voltage divider circuit. 
 
