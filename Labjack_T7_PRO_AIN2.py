@@ -2,7 +2,7 @@ import csv
 import os
 import time
 from labjack import ljm
-
+# The Labjack only supports up to 10v DC into the AIN ports so if you need to monitor more then that then use a voltage divider circui, if you exceed the 10v you can damage the unit
 # Function to generate a unique file name if the file already exists
 def generate_unique_filename(base_filename, extension):
     counter = 1
